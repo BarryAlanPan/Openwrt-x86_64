@@ -20,4 +20,4 @@
 # git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
 # git clone https://github.com/frainzy1477/luci-app-clash.git package/luci-app-clash
 git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
-src-git small https://github.com/kenzok8/small
+# src-git small https://github.com/kenzok8/small
