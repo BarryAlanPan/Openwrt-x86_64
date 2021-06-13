@@ -20,6 +20,11 @@
 # git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
 # git clone https://github.com/frainzy1477/luci-app-clash.git package/luci-app-clash
 git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
+mv package/openwrt-packages/* package/
+rm -rf package/openwrt-packages
+rm package/README.md
 git clone https://github.com/kenzok8/small.git package/small
-
+mv package/small/* package/
+rm -rf package/small
+rm package/README.md
 # src-git small https://github.com/kenzok8/small
